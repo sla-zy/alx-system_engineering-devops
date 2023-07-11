@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -typr d -name '.' | wc -l
+find . -typr d -not -name '.' | wc -l
